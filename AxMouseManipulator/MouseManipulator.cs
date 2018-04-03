@@ -61,12 +61,14 @@ namespace AxMouseManipulator
 
 
         /// <summary> Scrolls the mouse wheel up by the given ticks. </summary>
+        /// <param name="ticks">The number of ticks to scroll. It has to be a positive number and at most 100.</param>
         public static void ScrollMouseWheelUp(int ticks)
         {
             InternalHelpers.Scroll(ticks);
         }
 
         /// <summary> Scrolls the mouse wheel down by the given ticks. </summary>
+        /// <param name="ticks">The number of ticks to scroll. It has to be a positive number and at most 100.</param>
         public static void ScrollMouseWheelDown(int ticks)
         {
             InternalHelpers.Scroll(-ticks);

@@ -12,9 +12,9 @@
     <PackageProjectUrl>https://github.com/arphox/AxMouseManipulator</PackageProjectUrl>
     <RepositoryUrl>https://github.com/arphox/AxMouseManipulator</RepositoryUrl>
     <PackageTags>simulate mouse movement event click wheel manipulate arphox</PackageTags>
-    <PackageReleaseNotes>Created 1.0</PackageReleaseNotes>
-    <Version>1.0.0.0</Version>
-    <AssemblyVersion>1.0.0.0</AssemblyVersion>
-    <FileVersion>1.0.0.0</FileVersion>
+    <PackageReleaseNotes>XML documentation fix and minor refactor</PackageReleaseNotes>
+    <Version>1.0.0.1</Version>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
   </PropertyGroup>
 </Project>
