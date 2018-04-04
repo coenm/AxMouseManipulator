@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("AxMouseManipulator")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("A .NET library for Windows to simulate mouse movements like clicking and scrolling the mouse wheel.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("ArphoxSoft")]
+[assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("AxMouseManipulator")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

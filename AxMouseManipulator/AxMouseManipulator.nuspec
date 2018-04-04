@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>Arphox (Karoly Ozsvart)</authors>
+    <owners>Arphox (Karoly Ozsvart)</owners>
+    <licenseUrl>https://github.com/arphox/AxMouseManipulator/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/arphox/AxMouseManipulator</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Ported to .NET Framework 4.5.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags> simulate mouse movement event click wheel manipulate arphox ax</tags>
+  </metadata>
+</package>
