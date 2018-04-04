@@ -8,9 +8,6 @@ Simulate:
 
 ## How can I use it?
 
-You have two options:
-1. Use as a nuGet package:
-https://www.nuget.org/packages/AxMouseManipulator/
-
-2. Manually download the library:
+Download and use the library, it's free!
+See releases for downloads:
 https://github.com/arphox/AxMouseManipulator/releases
