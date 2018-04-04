@@ -10,7 +10,7 @@
     <projectUrl>https://github.com/arphox/AxMouseManipulator</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>Ported to .NET Framework 4.5.</releaseNotes>
+    <releaseNotes>Made IntegerPoint Serializable.</releaseNotes>
     <copyright>Copyright 2018</copyright>
     <tags> simulate mouse movement event click wheel manipulate arphox ax</tags>
   </metadata>
