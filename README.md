@@ -14,5 +14,5 @@ Set and get the cursor's current position.
 1. nuGet package:
 (TODO: link here)
 
-2: Manually download the library:
+2. Manually download the library:
 https://github.com/arphox/AxMouseManipulator/releases
