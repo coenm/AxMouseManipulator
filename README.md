@@ -1,7 +1,7 @@
 # AxMouseManipulator
-## Arphox's Mouse Manipulator .NET library
+A Mouse Manipulator .NET library for Windows, by Arphox (Károly Ozsvárt).
 
-## What can it do?
+## Features
 
 Simulate:
 - left / middle / right clicks
@@ -9,7 +9,7 @@ Simulate:
 
 Set and get the cursor's current position.
 
-## How can I use it?
+## How can I get it?
 
 1. nuGet package:
 (TODO: link here)
