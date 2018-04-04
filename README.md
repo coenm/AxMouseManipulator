@@ -1,13 +1,18 @@
-# AxMouseManipulator - Arphox's Mouse Manipulator .NET library
+# AxMouseManipulator
+A Mouse Manipulator .NET library for Windows, by Arphox (Károly Ozsvárt).
 
-## What can it do?
+## Features
 
 Simulate:
-- left/middle/right clicks
+- left / middle / right clicks
 - scroll up / scroll down
 
-## How can I use it?
+Set and get the cursor's current position.
 
-Download and use the library, it's free!
-See releases for downloads:
+## How can I get it?
+
+1. nuGet package:
+(TODO: link here)
+
+2. Manually download the library:
 https://github.com/arphox/AxMouseManipulator/releases
