@@ -8,9 +8,11 @@ namespace ConsoleTester
         private static void Main()
         {
             Thread.Sleep(2000);
-
-            while (true)
+            int i = 0;
+            while (i < 10)
             {
+                i++;
+                Thread.Sleep(2000);
                 MouseManipulator.SetCursorPosition(100, 100);
                 Thread.Sleep(50);
                 MouseManipulator.SetCursorPosition(100, 150);
@@ -29,6 +31,10 @@ namespace ConsoleTester
                 Thread.Sleep(50);
                 MouseManipulator.SetCursorPosition(100, 100);
                 Thread.Sleep(50);
+                MouseManipulator.PerformLeftMouseDown(200, 200);
+                Thread.Sleep(200);
+                MouseManipulator.PerformLeftMouseUp(500, 500);
+
             }
 
             //while (true)

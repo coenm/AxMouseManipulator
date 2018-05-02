@@ -17,7 +17,7 @@ namespace AxMouseManipulator
 
         [DllImport("user32.dll")]
         private static extern void mouse_event(int dwFlags, int dx, int dy, int dwData, int dwExtraInfo);
-        
+
         #endregion
 
         internal static void SetCursorPosition(int x, int y)
@@ -29,22 +29,52 @@ namespace AxMouseManipulator
                 throw new InvalidOperationException("Could not set the mouse cursor's position.");
         }
 
-        internal static void DoLeftClick()
+        internal static void DoLeftMouseDown()
         {
             ParameterlessMouseEvent(MouseEventFlags.LeftDown);
+        }
+
+        internal static void DoLeftMouseUp()
+        {
             ParameterlessMouseEvent(MouseEventFlags.LeftUp);
+        }
+
+        internal static void DoLeftClick()
+        {
+            DoLeftMouseDown();
+            DoLeftMouseUp();
+        }
+
+        internal static void DoRightMouseDown()
+        {
+            ParameterlessMouseEvent(MouseEventFlags.RightDown);
+        }
+
+        internal static void DoRightMouseUp()
+        {
+            ParameterlessMouseEvent(MouseEventFlags.RightUp);
         }
 
         internal static void DoRightClick()
         {
-            ParameterlessMouseEvent(MouseEventFlags.RightDown);
-            ParameterlessMouseEvent(MouseEventFlags.RightUp);
+            DoRightMouseDown();
+            DoRightMouseUp();
+        }
+
+        internal static void DoMiddleMouseDown()
+        {
+            ParameterlessMouseEvent(MouseEventFlags.MiddleDown);
+        }
+
+        internal static void DoMiddleMouseUp()
+        {
+            ParameterlessMouseEvent(MouseEventFlags.MiddleUp);
         }
 
         internal static void DoMiddleClick()
         {
-            ParameterlessMouseEvent(MouseEventFlags.MiddleDown);
-            ParameterlessMouseEvent(MouseEventFlags.MiddleUp);
+            DoMiddleMouseDown();
+            DoMiddleMouseUp();
         }
 
         internal static void Scroll(int ticks)
